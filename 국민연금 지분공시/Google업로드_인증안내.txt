@@ -1,0 +1,15 @@
+Google 스프레드시트로 자동 저장하려면 Google Drive 업로드 인증이 필요합니다.
+
+방법 1. OAuth 방식
+1. Google Cloud Console에서 OAuth 클라이언트 ID(데스크톱 앱)를 만듭니다.
+2. JSON 파일을 내려받아 이 폴더에 credentials.json 이름으로 저장합니다.
+3. 국민연금_지분공시_실행.bat을 실행합니다.
+4. 처음 한 번 브라우저 로그인/허용을 완료하면 token.json이 생성됩니다.
+
+방법 2. 서비스계정 방식
+1. 서비스계정 JSON 파일을 준비합니다.
+2. 업로드 대상 Google Drive 폴더를 서비스계정 이메일에 공유합니다.
+3. GOOGLE_APPLICATION_CREDENTIALS 환경변수에 JSON 경로를 지정합니다.
+
+업로드 대상 폴더 ID:
+1KHnSQGo8dbamDauUq9E88LZQAOpLUOSY

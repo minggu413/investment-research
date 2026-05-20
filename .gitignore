@@ -1,0 +1,7 @@
+어머니 인생/
+한방다운로드_v1_1_RC1/
+**/__pycache__/
+*.pyc
+*.sqlite3
+credentials.json
+token.json
